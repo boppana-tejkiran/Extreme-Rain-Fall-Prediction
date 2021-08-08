@@ -19,6 +19,6 @@ Code for preprocessing is presennt in **Data Pre-processing** directory.
 
 * Trained Xgboost, Kernelized Support Vector Classifier models on the data set.
 
-* Smote was used to reduce class imbalance and AutoEncoder was used to reduce the dimensionality of data for performance gain.
+* SMOTE was used to reduce class imbalance and AutoEncoder was used to reduce the dimensionality of data for performance gain.
 
 Discussion about the performance of implemented Machine Learning models is available in **report.pdf**
