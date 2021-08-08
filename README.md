@@ -1,13 +1,13 @@
-# Extreme-Rainfall_Prediction
-CS685 Data Mining Project
+# Extreme Rainfall Prediction Using Machine Learning
 
-#Data Collection
+In this project, different Machine Learning models are built to predict extreme rainfall events in the coming 24hrs. & 48hrs. based on current weather data at different climate zones in India. 
 
-Step 1) Get weather variables from : 1) https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.surface.html   <- at surface level and multiple levels
+### Data Collection
+* Weather data (X values for ML models) at surface level and at multpule altitudes at different locations is collected from: https://psl.noaa.gov/data/gridded/data.ncep.reanalysis.surface.html
 
-Step 2) Get Gridded Rainfall (1.0 x 1.0) NetCDF File (y-value) from : http://imdpune.gov.in/Clim_Pred_LRF_New/Grided_Data_Download.html
+* Rainfall data (y-values for ML models) at different locations is collected as NetCDF Files  from : http://imdpune.gov.in/Clim_Pred_LRF_New/Grided_Data_Download.html
 
-#Data Processing
+### Data Pre-processing
 
 Step 3) Run nc.py for all datafiles (change file names as per the years). (for each year individually)
 
